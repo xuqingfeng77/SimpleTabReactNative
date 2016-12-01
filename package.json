@@ -1,0 +1,26 @@
+{
+  "name": "xqf",
+  "version": "1.0.0",
+  "description": "SimpleTabReactNative",
+  "main": "index.android.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle-android": "react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output app/src/main/assets/index.android.bundle --sourcemap-output app/src/main/assets/index.android.map --assets-dest app/src/main/res/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "xqf",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-native": "^0.38.0",
+    "react-native-tab-navigator": "^0.3.3",
+    "react-native-vector-icons": "^3.0.0",
+    "react-native-viewpager": "^0.2.13"
+  }
+}

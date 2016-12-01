@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="anhei">#2f2f2f</color>
+    <color name="heise">#FF000000</color>
+    <color name="huise">#999999</color>
+    <color name="dialog_title_textColor">@color/white</color>
+    <color name="dialog_message_textColor">@color/heise</color>
+    <color name="dialog_line_bg_Color">@color/style_color</color>
+    <color name="dialog_loading_textColor">@color/anhei</color>
+    <color name="dialog_btn_normal_textColor">@color/style_color</color>
+    <color name="dialog_btn_hold_textColor">@color/style_color_alf</color>
+    <color name="dialog_btn_normal_bg">@color/white</color>
+    <color name="dialog_btn_hold_bg">#f1f1f1</color>
+    <color name="dialog_listview_item_textColor">@color/anhei</color>
+
+
+    <color name="titlebar_left_normal_textColor">@color/white</color>
+    <color name="titlebar_left_hold_textColor">#f9f9f9</color>
+    <color name="titlebar_bg_color">@color/style_color</color>
+    <color name="titlebar_line_color">@color/style_color</color>
+
+    <!-- *****换主题颜色************* -->
+    <color name="style_color">#67ac66</color>
+    <color name="style_color_alf">#ce67ac66</color>
+
+
+    <!-- ***********换主题修改部分开始(如果不是非必要，下面部分不用修改)************* -->
+    <!-- 底部字体选中颜色 -->
+    <color name="main_tab_hold_textColor">@color/style_color</color>
+    <!-- 底部字体未选中颜色 -->
+    <color name="main_tab_normal_textColor">#646464</color>
+    <!-- 底部导航条背景颜色 -->
+    <color name="main_tab_bg_color">#75f9f9f9</color>
+
+    <!-- 按钮或文字绿色未点击 -->
+    <color name="btn_lvse_mormal">@color/style_color</color>
+    <!-- 按钮或文字绿色点击 -->
+    <color name="btn_lvse_hold">@color/style_color_alf</color>
+
+    <!-- 按钮灰色（按钮不能点击状态） -->
+    <color name="btn_huise_mormal">#aaaaaa</color>
+
+    <!-- edittext输入框背景边框颜色 -->
+    <color name="edittext_bg_color">#bebebe</color>
+</resources>
