@@ -14,15 +14,17 @@ import {
 
 export default class MenuButton extends React.Component {
 
+
     static propTypes = {
-        renderIcon: PropTypes.number.isRequired,  // 图片,加入.isRequired即为比填项
-        showText: PropTypes.string,  // 显示标题\文字
-        tag: PropTypes.string,  // Tag
-        onClick: PropTypes.func  // 回调函数
+        renderIcon: React.PropTypes.number,  // 图片,加入.isRequired即为比填项
+        showText: React.PropTypes.string,  // 显示标题\文字
+        tag: React.PropTypes.string,  // Tag
+        onClick: React.PropTypes.func  // 回调函数
     };
 
     constructor(props) {
         super(props);
+        console.dir(React)
         this._onClick = this._onClick.bind(this);  // 需要在回调函数中使用this,必须使用bind(this)来绑定
     }
 

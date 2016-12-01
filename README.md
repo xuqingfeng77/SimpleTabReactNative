@@ -1,14 +1,9 @@
 # SimpleTabReactNative
 主要效果：react-native-tab-navigator，已经banner的使用<br>
-如果其他环境都配置好可以执行下面命令安装<br>
+如果其他环境都配置好可以执行下面命令安装，没有的库自己去下载就ok<br>
 npm install --save react react-native   安装react native<br>
 npm install react-native-tab-navigator --save  安装tab插件<br>
 
-
-
-##存在的问题
-项目可以运行起来，我屏蔽了下面的问题，可以看到Tab效果<br>
-说HomePage引用的MenuButton有问题，这个真的搞不明白， 等基础扎实了再来看<br>
 
 
 
